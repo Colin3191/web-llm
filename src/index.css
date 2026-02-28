@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-start: #667eea;
+  --color-brand-end: #764ba2;
+  --color-user-gradient-start: #f093fb;
+  --color-user-gradient-end: #f5576c;
+}
