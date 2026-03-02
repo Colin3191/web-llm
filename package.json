@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "@ai-sdk/react": "^3.0.105",
+    "@ant-design/icons": "^6.1.0",
+    "@ant-design/x": "^2.3.0",
     "@mlc-ai/web-llm": "^0.2.81",
     "ai": "^6.0.103",
+    "antd": "^6.3.1",
     "lucide-react": "^0.575.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

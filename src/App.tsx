@@ -1,10 +1,7 @@
-import { useState } from 'react'
 import { Bot } from 'lucide-react'
 import { Chat } from './components/Chat'
 
 function App() {
-  const [selectedModel] = useState('Qwen2.5-0.5B-Instruct-q4f32_1-MLC')
-
   return (
     <div className="min-h-screen flex flex-col bg-linear-to-br from-brand-start to-brand-end">
       <header className="bg-white/95 backdrop-blur px-6 py-6 text-center shadow-lg">
@@ -15,7 +12,7 @@ function App() {
         <p className="text-sm text-slate-600">在浏览器中运行本地 AI 模型</p>
       </header>
       <main className="flex-1 flex items-center justify-center p-8">
-        <Chat selectedModel={selectedModel} />
+        <Chat />
       </main>
       <footer className="bg-black/30 text-white text-center py-4 text-sm">
         <p>Powered by MLC WebLLM - 所有计算都在本地完成</p>
